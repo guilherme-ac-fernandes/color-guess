@@ -52,9 +52,7 @@ function checkAnswer(event) {
   const eventChoose = event.target.style.backgroundColor;
   if (eventChoose === `rgb${colorToFind.innerText}`) {
     answerPosition.innerText = 'Acertou!';
-    score += 3;
-    scorePosition.innerText = score;
-
+    scorePosition.innerText = score += 3;
   } else {
     answerPosition.innerText = 'Errou! Tente novamente!';
   }
@@ -71,8 +69,6 @@ function resetGame() {
   }
   createColorsDiv();
 }
-
-// Incluir pontuação
 
 window.onload = () => {
   createColorsDiv();
