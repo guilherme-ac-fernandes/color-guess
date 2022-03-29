@@ -1,4 +1,4 @@
-## Game - Color Guess
+## Projeto Color Guess
 
 #### Consiste em uma aplicação de um jogo de adivinhação das cores.
 > Esta aplicação foi desenvolvida utilizando JavaScript, HTML5 e CSS3.
